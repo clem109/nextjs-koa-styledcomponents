@@ -9,7 +9,7 @@ injectGlobal`
   }
   body {
     font-family: "menlo", serif;
-    font-size: 1.3em;
+    font-size: 25px;
     line-height: 1.6;
   }
 `;
