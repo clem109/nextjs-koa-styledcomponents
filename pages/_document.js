@@ -4,12 +4,10 @@ import {ServerStyleSheet, injectGlobal} from 'styled-components'
 // How to inject global styles with Styled-components
 injectGlobal`
   html {
-    font-size: 10px;
     background: #ebeff2;
   }
   body {
     font-family: "menlo", serif;
-    font-size: 25px;
     line-height: 1.6;
   }
 `;
@@ -30,6 +28,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Next.js starter clem109</title>
           {this.props.styleTags}
         </Head>
