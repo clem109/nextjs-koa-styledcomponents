@@ -7,7 +7,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "go": "npm run build && npm run start"
+    "go": "npm run build && npm run start",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
